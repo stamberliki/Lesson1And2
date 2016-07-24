@@ -17,11 +17,17 @@ Maximum of 5 and minimum of 3 person, because it is the first test and this 5 pe
 4. Suppose that the C programming language is chosen in the project in exercise 2. Recommend a detailed code review checklist to the review team.
 
 -Does the code do what has been specified in the design specification?
-- Is the code portable? The source code is likely to execute on multiple processor architectures and on different operating systems over its lifetime. It must be implemented in a manner that does not preclude this kind of a variety of execution environments. 
--Does the procedure used in the module solve the problem correctly? 
+
+- Is the code portable? The source code is likely to execute on multiple processor architectures and on different operating systems over its lifetime. It must be implemented in a manner that does not preclude this kind of a variety of execution environments.
+
+-Does the procedure used in the module solve the problem correctly?
+
 -Is the code efficient? In general, clarity, readability, or correctness should not be sacrificed for efficiency. Code review is intended to detect implementation choices that have adverse effects on system performance.
- -Does a software module duplicate another existing module which could be reused? 
+
+-Does a software module duplicate another existing module which could be reused?
+
 -Are there computations using variables with inconsistent data types? Is overflow or underflow a possibility?
+
 -Are error codes and condition messages produced by accessing a common table of messages? Each error code should have a meaning, and all of the meanings should be available at one place in a table rather than scattered all over the program code.
 
 5. In addition to code review, what other static unit testing techniques would you recommend for the project in exercise 3? Justify your answer.
