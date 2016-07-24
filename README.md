@@ -18,7 +18,7 @@ Maximum of 5 and minimum of 3 person, because it is the first test and this 5 pe
 
 -Does the code do what has been specified in the design specification?
 
-- Is the code portable? The source code is likely to execute on multiple processor architectures and on different operating systems over its lifetime. It must be implemented in a manner that does not preclude this kind of a variety of execution environments.
+-Is the code portable? The source code is likely to execute on multiple processor architectures and on different operating systems over its lifetime. It must be implemented in a manner that does not preclude this kind of a variety of execution environments.
 
 -Does the procedure used in the module solve the problem correctly?
 
@@ -31,6 +31,7 @@ Maximum of 5 and minimum of 3 person, because it is the first test and this 5 pe
 -Are error codes and condition messages produced by accessing a common table of messages? Each error code should have a meaning, and all of the meanings should be available at one place in a table rather than scattered all over the program code.
 
 5. In addition to code review, what other static unit testing techniques would you recommend for the project in exercise 3? Justify your answer.
+
 Aside from using the IBM concept which is the inspection, walkthrough can be used but, it is most preferable to use the IBM concept, because it is more reliable and efficient for it has limitation and scopes that the product should have.
 
 6. Describe the special role of a recordkeeper.
