@@ -43,6 +43,7 @@ Answer: The special role that the record keeper, he or she is the one that takes
 Answer: Code review rework and validation is important in making a product, because you need to make a quality and reliable product that satisfy the needs of the client. Code review rework is the evaluation of the program where in it is still in the process of closing the project. It is needed for the author of the code can make sure that there are few errors and defects. And so they can be able to fix it. While validation is needed because it is the actual testing of the product to ensure the compliance with software requirements at the end of the software development.
 
 Part II (Note: Refer to your previous software developed)
+
 1.) Attempt to draw a control flow graph for a module that you have recently developed. Determine the cyclomatic complexity for the module. Is the module too complex?
 
 2.) For your previous software project, conduct a formal code review as described in Section 3.2. Since this is by pair, choose only one software project for the code review.
